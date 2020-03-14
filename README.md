@@ -1,4 +1,8 @@
-Задан двухмерный массив A размерности MxN . Дополнить его  M+1-й строкой и  N+1-м столбцом, 
-в которых записать суммы элементов соответствующих строк или столбцов исходного массива A. 
-В элементе [M+1][N+1]  должна храниться сумма элементов первоначального массива. Исходные элементы массива  A, M  
-и N  необходимо ввести с клавиатуры.
+Rudenko Vitaliy 302TK
+
+Given a two-dimensional array A of dimension MxN. Supplement it with M + 1 row and N + 1 column,
+source array A.
+The element [M + 1] [N + 1] must store the sum of the elements of the original array. The initial elements of the array A, M
+and N must be entered from the keyboard.
+
+Teacher Yury Kuchma
