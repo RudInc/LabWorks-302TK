@@ -1,4 +1,10 @@
-Задан двухмерный массив A размерности MxN . Дополнить его  M+1-й строкой и  N+1-м столбцом, 
-в которых записать суммы элементов соответствующих строк или столбцов исходного массива A. 
-В элементе [M+1][N+1]  должна храниться сумма элементов первоначального массива. Исходные элементы массива  A, M  
-и N  необходимо ввести с клавиатуры.
+Rudenko Vitaliy 302-TK
+Variant 8
+Teacher Kuchma Yuri
+
+I publish my lab. works in this repository.
+First number - number of the task. Second - number of variant
+
+I have already published this works:
+- Lab 3.8
+- Lab 4.8
