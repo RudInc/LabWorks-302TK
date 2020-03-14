@@ -14,11 +14,13 @@ int main()
 {
 	unsigned short int iM, iN;
 	char cKey;
+	//Set matrix dimersion
 	cout << "Set matrix dimension MxN" << endl;
 	cout << "M = ";
 	cin >> iM;
 	cout << "N = ";
 	cin >> iN;
+	//Create matrix MxN
 	int **matrix = new int*[iM + 1];
 
 	for (unsigned short i = 0; i < iM + 1; i++)
@@ -30,7 +32,7 @@ int main()
 			matrix[i][j] = 0;
 		}
 	}
-	
+	//Filling matrix with random numbers or manually
 	cout<<"Fill matrix with random nubmers? Y - yes."<<endl;
 	cin >> cKey;
 	if (cKey == 'Y' || cKey == 'y')
@@ -56,6 +58,7 @@ int main()
 				}
 			}
 		}
+	//Summing elements of raws
 	for (unsigned short i = 0; i < iM; i++)
 	{
 		for (unsigned short j = 0; j < iN; j++)
@@ -63,6 +66,7 @@ int main()
 			matrix[i][iN] += matrix[i][j];
 		}
 	}
+	//Summing elements of collums
 	for (unsigned short j = 0; j < iN; j++)
 	{
 		for (unsigned short i = 0; i < iM; i++)
@@ -70,6 +74,7 @@ int main()
 			matrix[iM][j] += matrix[i][j];
 		}
 	}
+	//Summing all elements
 	for (unsigned short i = 0; i < iM; i++)
 	{
 		matrix[iM][iN] += matrix[i][iN];
@@ -78,6 +83,7 @@ int main()
 	{
 		matrix[iM][iN] += matrix[iM][j];
 	}
+	//Show initial Matrix
 	cout << "Initial matrix" << endl;
 	for (unsigned short i = 0; i < iM ; i++)
 	{
@@ -85,6 +91,7 @@ int main()
 			cout << matrix[i][j] << "\t";
 		cout << endl;
 	}
+	//Show Extended matrix
 	cout << "Extended matrix" << endl;
 	for (unsigned short i = 0; i < iM + 1; i++)
 	{
