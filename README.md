@@ -2,10 +2,10 @@ Rudenko Vitaliy 302-TK
 Variant 8
 Teacher Kuchma Yuri
 
-На складе хранится ряд деталей, наименования которых представляют
-некоторую последовательность символов (например, Д21А, Д52Н и т.д.).
-Подсчитать количество наименований деталей, которые начинаются с Д2. Все
-имеющиеся наименования вводить с клавиатуры; поскольку число деталей
-заранее не известно, заканчивать ввод данных следует вводом пустой строки
-(строки, не содержащей ни одного символа), т.е. нажатием клавиши ВВОД
-без ввода наименования детали.
+There are raws of detais in stock, whose name present
+some sequence of characters (for example, D21A, D52N, etc.)
+Count the number of part names that start with D2. Everything
+enter available names from the keyboard; since the number of parts
+it is not known in advance, to complete the data entry follows the entry of an empty line
+(a line containing no characters), i.e. by pressing the ENTER key
+without entering the name of the part.
